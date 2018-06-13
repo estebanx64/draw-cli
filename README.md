@@ -37,7 +37,7 @@ Q Should quit the program.
 **Create a new matrix**
 
 ```bash
-Enter command: c 20 4
+Enter command: C 20 4
 |                    |
 |                    |
 |                    |
@@ -49,7 +49,7 @@ Enter command: c 20 4
 **Create horizontal line**
 
 ```bash
-Enter command: l 1 2 6 2
+Enter command: L 1 2 6 2
 |                    |
 |xxxxxx              |
 |                    |
@@ -61,7 +61,7 @@ Enter command: l 1 2 6 2
 **Create vertical line**
 
 ```bash
-Enter command: l 6 3 6 4
+Enter command: L 6 3 6 4
 |                    |
 |xxxxxx              |
 |     x              |
@@ -73,7 +73,7 @@ Enter command: l 6 3 6 4
 **Create rectangle**
 
 ```bash
-Enter command: r 16 1 20 3
+Enter command: R 16 1 20 3
 |               xxxxx|
 |xxxxxx         x   x|
 |     x         xxxxx|
@@ -85,7 +85,7 @@ Enter command: r 16 1 20 3
 **Flood fill**
 
 ```bash
-Enter command: b 10 3 o
+Enter command: B 10 3 o
 |oooooooooooooooxxxxx|
 |xxxxxxooooooooox   x|
 |     xoooooooooxxxxx|
@@ -97,14 +97,15 @@ Enter command: b 10 3 o
 **Running test**
 
 ```bash
-$ python test_draw.py -v
-test_floodFill (__main__.TestDrawMethods) ... ok
-test_line (__main__.TestDrawMethods) ... ok
-test_newMatriz (__main__.TestDrawMethods) ... ok
-test_rectangle (__main__.TestDrawMethods) ... ok
+$ python test.py -v
+|oooooooooooooooxxxxx|
+|xxxxxxooooooooox   x|
+|     xoooooooooxxxxx|
+|     xoooooooooooooo|
+ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 3 tests in 0.043s
 
 OK
 ```
